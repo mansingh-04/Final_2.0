@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #eef1f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #0073e6;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0073e6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #0073e6;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.message p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.message.success {
+    color: #28a745;
+}
+
+.message.error {
+    color: #dc3545;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}

@@ -1,0 +1,4 @@
+volume_name = "FileOrganizer"
+application_name = "dist/FileOrganizer.app"  # Point to the correct path of your .app
+background_image = "background.jpg"  # Optional background image for the dmg
+icon_file = "icon.icns"  # Custom icon for the app (optional)

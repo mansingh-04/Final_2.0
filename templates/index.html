@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Organizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>File Organizer</h1>
+        <form method="POST">
+            <label for="folder_path">Enter folder path:</label>
+            <input type="text" id="folder_path" name="folder_path" required placeholder="e.g., /path/to/your/folder">
+            <button type="submit">Clean Folder</button>
+        </form>
+
+        {% if message %}
+            <div class="message {% if 'Completed' in message %}success{% else %}error{% endif %}">
+                <p>{{ message }}</p>
+            </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
