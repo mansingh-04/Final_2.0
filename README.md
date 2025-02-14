@@ -8,7 +8,7 @@ macOS 10.10 (Yosemite) or later
 No installation required. Just download and run the .dmg file.
 How to Use
 1. Download the .dmg File
-Download the FileOrganizer.dmg file from the provided link (or from your local project directory if you are the developer).
+Download the FileOrganizer.dmg file from the provided link (Code URL)
 2. Mount the .dmg File
 Double-click the FileOrganizer.dmg file. It will mount as a virtual disk on your desktop or Finder.
 3. Install the Application
