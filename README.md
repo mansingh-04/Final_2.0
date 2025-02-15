@@ -1,3 +1,15 @@
+Steps To Install The and Run the Application
+
+Step 1 -> https://drive.google.com/drive/u/2/folders/11WOmYh30IeXNSfAlKzGjkEVBs-KFukri    download the File_2.0 folder from this link
+If you can't able to open the file just give that file permission from the setting and then Privacy and Security and allow that File.
+
+Step 2 -> Open the Folder and double click on the File_Manager.dmg file and wait, it will automatically open the browser and is it won't for very long time open your browser and redirect to this link http://127.0.0.1:5000 
+Note -> For first time it may take a little longer time to open as it install required files in your system.
+
+Step 3 -> After that enter your Folder path and click on Clean Folder and allow the permission for local files.
+
+
+
 FileOrganizer
 FileOrganizer is a macOS desktop application that helps you organize files in a folder by their file types. The application sorts your files into separate subfolders based on their extensions (e.g., .txt, .jpg, etc.).
 
